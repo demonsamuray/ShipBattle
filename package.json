@@ -1,0 +1,40 @@
+{
+  "name": "pirate-battle-prototype",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "atlas:build": "node scripts/generate-island-atlas.mjs",
+    "typecheck": "tsc -b --pretty && tsc -p tsconfig.tests.json --pretty",
+    "test:e2e": "playwright test",
+    "test:e2e:desktop": "playwright test --project=chromium-desktop",
+    "test:e2e:mobile": "playwright test --project=chromium-mobile",
+    "profile:game": "npm run build && node scripts/profile-game.mjs",
+    "profile:game:minimal": "npm run build && node scripts/profile-game.mjs --minimal",
+    "test:e2e:update-snapshots": "playwright test --update-snapshots"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.104.0",
+    "axios": "^1.20.0",
+    "msw": "^3.0.1",
+    "pixi.js": "^8.14.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@playwright/test": "^1.63.0",
+    "@types/react": "^19.1.12",
+    "@types/react-dom": "^19.1.9",
+    "@vitejs/plugin-react": "^5.0.2",
+    "eslint": "^10.11.0",
+    "globals": "^17.13.0",
+    "typescript": "~5.9.2",
+    "typescript-eslint": "^8.71.0",
+    "vite": "^7.1.7"
+  }
+}

@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+
+# Dependencies
+node_modules/
+
+# Generated build output
+dist/
+
+# Local backups and transient browser test output
+backups/
+artifacts/playwright-results/
+
+# Local configuration
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log

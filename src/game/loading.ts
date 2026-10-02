@@ -1,0 +1,1 @@
+export const GAME_LOADING_ASSET_TOTAL = 16;

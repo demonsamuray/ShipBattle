@@ -1,0 +1,199 @@
+{
+  "profileType": "minimal-diagnostic",
+  "configuration": {
+    "sessionTimeSeconds": 60,
+    "enemySpawnIntervalSeconds": 15,
+    "seed": 987654
+  },
+  "system": {
+    "hostname": "DESKTOP-EOV1TP1",
+    "platform": "win32 10.0.19045",
+    "cpuModel": "Intel(R) Core(TM) i3-3220 CPU @ 3.30GHz",
+    "cpuLogicalCores": 4,
+    "physicalMemoryGiB": 16,
+    "browserVersion": "153.0.8010.12"
+  },
+  "match": {
+    "elapsedSeconds": 25.41220000000298,
+    "frameCount": 1523,
+    "averageFps": 59.93184376007671,
+    "averageFrameMs": 16.687852921864806,
+    "p95FrameMs": 16.700000000000728,
+    "maxEntities": 17,
+    "maxEnemies": 1,
+    "endReason": "Incomplete: 25-second wall-time limit reached",
+    "simTimeRemaining": 34.45100000000084,
+    "memorySamples": [
+      {
+        "atSeconds": 0.0012999999970197678,
+        "usedBytes": 12027102,
+        "totalBytes": 18554474
+      },
+      {
+        "atSeconds": 1.0072000000029802,
+        "usedBytes": 14903503,
+        "totalBytes": 20145391
+      },
+      {
+        "atSeconds": 2.0110999999940393,
+        "usedBytes": 13631041,
+        "totalBytes": 20931841
+      },
+      {
+        "atSeconds": 3.0182999999970197,
+        "usedBytes": 14924885,
+        "totalBytes": 20931841
+      },
+      {
+        "atSeconds": 4.022399999991059,
+        "usedBytes": 12921229,
+        "totalBytes": 20931841
+      },
+      {
+        "atSeconds": 5.025599999994039,
+        "usedBytes": 11652588,
+        "totalBytes": 21418772
+      },
+      {
+        "atSeconds": 6.028599999994039,
+        "usedBytes": 12962108,
+        "totalBytes": 21418860
+      },
+      {
+        "atSeconds": 7.039,
+        "usedBytes": 14221758,
+        "totalBytes": 21418878
+      },
+      {
+        "atSeconds": 8.03929999999702,
+        "usedBytes": 11142813,
+        "totalBytes": 20377373
+      },
+      {
+        "atSeconds": 9.05279999999702,
+        "usedBytes": 12399997,
+        "totalBytes": 20377373
+      },
+      {
+        "atSeconds": 10.05529999999702,
+        "usedBytes": 10286541,
+        "totalBytes": 20377373
+      },
+      {
+        "atSeconds": 11.069,
+        "usedBytes": 11201101,
+        "totalBytes": 20377373
+      },
+      {
+        "atSeconds": 12.07220000000298,
+        "usedBytes": 12167537,
+        "totalBytes": 20377373
+      },
+      {
+        "atSeconds": 13.079,
+        "usedBytes": 13262289,
+        "totalBytes": 20377373
+      },
+      {
+        "atSeconds": 14.08309999999404,
+        "usedBytes": 11134969,
+        "totalBytes": 20377373
+      },
+      {
+        "atSeconds": 15.08920000000298,
+        "usedBytes": 12783303,
+        "totalBytes": 21171995
+      },
+      {
+        "atSeconds": 16.08970000000298,
+        "usedBytes": 11184743,
+        "totalBytes": 21696283
+      },
+      {
+        "atSeconds": 17.09620000000298,
+        "usedBytes": 11887547,
+        "totalBytes": 21696283
+      },
+      {
+        "atSeconds": 18.09870000000298,
+        "usedBytes": 11913329,
+        "totalBytes": 21704473
+      },
+      {
+        "atSeconds": 19.10589999999106,
+        "usedBytes": 12765117,
+        "totalBytes": 21704473
+      },
+      {
+        "atSeconds": 20.11859999999404,
+        "usedBytes": 12874353,
+        "totalBytes": 21704473
+      },
+      {
+        "atSeconds": 21.122099999994038,
+        "usedBytes": 14083813,
+        "totalBytes": 21966617
+      },
+      {
+        "atSeconds": 22.12229999999702,
+        "usedBytes": 11820803,
+        "totalBytes": 21958427
+      },
+      {
+        "atSeconds": 23.12279999999702,
+        "usedBytes": 12671959,
+        "totalBytes": 21958427
+      },
+      {
+        "atSeconds": 24.1345,
+        "usedBytes": 13623959,
+        "totalBytes": 21958427
+      },
+      {
+        "atSeconds": 25.137,
+        "usedBytes": 11355681,
+        "totalBytes": 21950237
+      }
+    ],
+    "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.8010.12 Safari/537.36",
+    "hardwareConcurrency": 4,
+    "deviceMemoryGiB": 16,
+    "renderer": "ANGLE (NVIDIA, NVIDIA Quadro 600 (0x00000DF8) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "resolution": "1440x900 @1x",
+    "finalUsedHeapBytes": 11777873,
+    "matchCompleted": false
+  },
+  "lifecycleCycles": [
+    {
+      "cycle": 1,
+      "heapBeforeGcBytes": 9707325,
+      "heapAfterGcBytes": 9736393,
+      "heapDeltaBytes": 29068
+    },
+    {
+      "cycle": 2,
+      "heapBeforeGcBytes": 9634265,
+      "heapAfterGcBytes": 9904837,
+      "heapDeltaBytes": 270572
+    },
+    {
+      "cycle": 3,
+      "heapBeforeGcBytes": 9784409,
+      "heapAfterGcBytes": 9968989,
+      "heapDeltaBytes": 184580
+    },
+    {
+      "cycle": 4,
+      "heapBeforeGcBytes": 9863761,
+      "heapAfterGcBytes": 10142533,
+      "heapDeltaBytes": 278772
+    },
+    {
+      "cycle": 5,
+      "heapBeforeGcBytes": 10020333,
+      "heapAfterGcBytes": 10160869,
+      "heapDeltaBytes": 140536
+    }
+  ],
+  "pageErrors": []
+}
