@@ -41,7 +41,7 @@ Updated 2026-10-02. The public HTTPS demo is deployed; remaining delivery condit
 - [x] Validate an isolated clean copy with `npm ci`, `npm run atlas:build`, `npm run typecheck`, and `npm run build`.
 - [x] Re-run focused arena visual snapshot after refresh; it passed. Preserve the final full HTML report under `artifacts/playwright-report/`.
 - [x] Install the isolated HTTPS service on 5173 after verifying path/service ownership; local and external health, refresh, and MSW fixture behavior passed without changes to Apache/XAMPP.
-- [ ] Create/push the GitHub repository after the GitHub connector is connected and repository visibility/name are confirmed.
+- [x] Publish the project source on the public GitHub repository: [demonsamuray/ShipBattle](https://github.com/demonsamuray/ShipBattle), branch `main`.
 
 ## Known limits of this audit
 

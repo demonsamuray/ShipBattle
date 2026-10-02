@@ -15,6 +15,7 @@ Updated 2026-10-02. Read `README.md`, `STATUS_PROJETO.md`, `DELIVERY_CATALOG.md`
 - Isolated clean copy: `npm ci` (0 reported vulnerabilities), atlas build, typecheck, and Vite build passed.
 - Final full Playwright run after baseline refresh: 25 passed, 15 expected skips, zero failures (7.4 minutes). HTML report: `artifacts/playwright-report/index.html`.
 - Public HTTPS deployment is active at [https://nucleusdigital.online:5173/](https://nucleusdigital.online:5173/). External Chromium confirmed the MSW service worker controlled the page and ranking/scenario fixture requests returned 200.
+- Public source repository is [demonsamuray/ShipBattle](https://github.com/demonsamuray/ShipBattle), branch `main`.
 - The TLS systemd service runs unprivileged and uses systemd credentials for the existing certificate; certbot renewal restarts only this service. Apache on 80/443 and XAMPP on 8080/8443 were left untouched.
 
 ## Remaining delivery conditions
@@ -22,7 +23,6 @@ Updated 2026-10-02. Read `README.md`, `STATUS_PROJETO.md`, `DELIVERY_CATALOG.md`
 1. Review the final full Playwright HTML report at `artifacts/playwright-report/index.html`.
 2. Complete manual visual/accessibility review (coast/wall rendering, keyboard focus, contrast, screen reader, touch behavior).
 3. Confirm redistribution rights for challenge-provided title/background/logo art. Kenney Pirate Pack CC0 evidence is documented in `THIRD_PARTY_NOTICES.md`.
-4. Create and push the GitHub repository after GitHub is connected and the owner confirms name/visibility.
 
 ## Credential handling
 

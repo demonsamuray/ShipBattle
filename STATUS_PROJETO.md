@@ -15,12 +15,12 @@ The required optimized three-minute profile completed: 180.55-second match, 59.7
 - Full Playwright desktop/mobile run after refreshing the seeded arena baseline: 25 passed, 15 intentionally skipped, 0 failed (7.4 minutes). Focused arena visual case passed. Final HTML report: `artifacts/playwright-report/index.html`.
 - `npm run lint`: passed after the final documentation/snapshot and HTTPS server helper updates.
 - VM read-only inspection confirmed Apache on 80/443 and XAMPP on 8080/8443. The isolated HTTPS service is active on 5173; Apache/XAMPP remain untouched. External Chromium confirmed MSW's service worker and ranking API fixtures work. Demo: [https://nucleusdigital.online:5173/](https://nucleusdigital.online:5173/).
+- Public source repository on `main`: [demonsamuray/ShipBattle](https://github.com/demonsamuray/ShipBattle).
 
 ## Remaining release conditions
 
 1. Complete a manual visual and accessibility review (coast seams, wall placement, contrast, keyboard focus, screen reader output, and touch behavior).
 2. Confirm redistribution rights for challenge-supplied title/background and logo files. Kenney Pirate Pack CC0 evidence is documented in `THIRD_PARTY_NOTICES.md`.
-3. Create the GitHub repository after GitHub is connected and repository name/visibility are confirmed.
 
 ## Documentation map
 
