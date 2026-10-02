@@ -1,6 +1,6 @@
 # Asset audit
 
-All active runtime assets are under `assets/`. The former root-level runtime water image is now `assets/png/default/backgrounds/sea.png`; island source images and the tile contact sheet are in `assets/references/`. The Pirate Pack art matches Kenney's pack and CC0 terms are linked in `THIRD_PARTY_NOTICES.md`. Rights for challenge-provided title/background/logo art still need confirmation before the public release is fully cleared.
+All active runtime assets are under `assets/`. The former root-level runtime water image is now `assets/png/default/backgrounds/sea.png`; island source images and the tile contact sheet are in `assets/references/`. Kenney Pirate Pack CC0 terms and the project owner's confirmation of rights to the remaining image assets are recorded in `THIRD_PARTY_NOTICES.md`.
 
 ## Playable ships
 

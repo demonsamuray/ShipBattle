@@ -16,11 +16,11 @@ The required optimized three-minute profile completed: 180.55-second match, 59.7
 - `npm run lint`: passed after the final documentation/snapshot and HTTPS server helper updates.
 - VM read-only inspection confirmed Apache on 80/443 and XAMPP on 8080/8443. The isolated HTTPS service is active on 5173; Apache/XAMPP remain untouched. External Chromium confirmed MSW's service worker and ranking API fixtures work. Demo: [https://nucleusdigital.online:5173/](https://nucleusdigital.online:5173/).
 - Public source repository on `main`: [demonsamuray/ShipBattle](https://github.com/demonsamuray/ShipBattle).
+- Image rights recorded in `THIRD_PARTY_NOTICES.md`: Kenney CC0 terms plus the owner's confirmation that remaining artwork is owned or cleared for redistribution.
 
 ## Remaining release conditions
 
 1. Complete a manual visual and accessibility review (coast seams, wall placement, contrast, keyboard focus, screen reader output, and touch behavior).
-2. Confirm redistribution rights for challenge-supplied title/background and logo files. Kenney Pirate Pack CC0 evidence is documented in `THIRD_PARTY_NOTICES.md`.
 
 ## Documentation map
 

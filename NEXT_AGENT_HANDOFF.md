@@ -17,12 +17,12 @@ Updated 2026-10-02. Read `README.md`, `STATUS_PROJETO.md`, `DELIVERY_CATALOG.md`
 - Public HTTPS deployment is active at [https://nucleusdigital.online:5173/](https://nucleusdigital.online:5173/). External Chromium confirmed the MSW service worker controlled the page and ranking/scenario fixture requests returned 200.
 - Public source repository is [demonsamuray/ShipBattle](https://github.com/demonsamuray/ShipBattle), branch `main`.
 - The TLS systemd service runs unprivileged and uses systemd credentials for the existing certificate; certbot renewal restarts only this service. Apache on 80/443 and XAMPP on 8080/8443 were left untouched.
+- Asset rights: Kenney Pirate Pack CC0 is linked to official sources; all other project imagery is covered by the owner's written confirmation recorded in `THIRD_PARTY_NOTICES.md`.
 
 ## Remaining delivery conditions
 
 1. Review the final full Playwright HTML report at `artifacts/playwright-report/index.html`.
 2. Complete manual visual/accessibility review (coast/wall rendering, keyboard focus, contrast, screen reader, touch behavior).
-3. Confirm redistribution rights for challenge-provided title/background/logo art. Kenney Pirate Pack CC0 evidence is documented in `THIRD_PARTY_NOTICES.md`.
 
 ## Credential handling
 

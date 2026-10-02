@@ -22,7 +22,7 @@ Updated 2026-10-02. The public HTTPS demo is deployed; remaining delivery condit
 - [x] Add deterministic assertions for Chaser pursuit, Shooter firing/hold, and five-second stuck-near-boundary recovery; full run passed all three on desktop and mobile.
 - [x] Phase transition from a real player projectile, enemy fleet cleanup, death end/history record, clean restart, and abandon-without-record flows have E2E assertions.
 - [x] Focus trap/restoration and semantic HUD names/values have automated assertions; full manual accessibility validation remains open.
-- [x] Document the Kenney Pirate Pack CC0 terms with official links in `THIRD_PARTY_NOTICES.md`. [ ] Confirm redistribution terms for challenge-supplied title/background and logo files before claiming all shipped art is cleared.
+- [x] Document Kenney Pirate Pack CC0 terms and the project owner's confirmation that all other included image assets are owned or licensed by the owner/company for publication and redistribution; see `THIRD_PARTY_NOTICES.md`.
 - [ ] Manually inspect the live atlas/island phases at [the HTTPS demo](https://nucleusdigital.online:5173/), including coast alpha, collision navigation, overlays, and mobile HUD. Automated screenshots are captured; coast tile seams remain a visual review item.
 - [x] Playwright production preview serves the built app on 5174; the complete suite exercised MSW, atlas, and game assets.
 
@@ -45,4 +45,4 @@ Updated 2026-10-02. The public HTTPS demo is deployed; remaining delivery condit
 
 ## Known limits of this audit
 
-The E2E pilot uses real WASD/Space/Q keyboard events and reads a test-only snapshot emitted by the real simulation. NPC behavior and recovery have separate deterministic assertions. The test-only manual clock calls the same `stepSimulation` used by the Pixi ticker and is available only with `?testMode=1`; it is not enabled during normal gameplay. Manual visual/accessibility review and provenance for challenge-supplied UI art remain open.
+The E2E pilot uses real WASD/Space/Q keyboard events and reads a test-only snapshot emitted by the real simulation. NPC behavior and recovery have separate deterministic assertions. The test-only manual clock calls the same `stepSimulation` used by the Pixi ticker and is available only with `?testMode=1`; it is not enabled during normal gameplay. Manual visual/accessibility review remains open. Rights for the artwork are documented in `THIRD_PARTY_NOTICES.md` based on official CC0 terms and the project owner's confirmation.
